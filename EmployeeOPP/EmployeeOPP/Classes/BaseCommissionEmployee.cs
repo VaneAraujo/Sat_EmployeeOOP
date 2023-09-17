@@ -9,14 +9,11 @@
 
     
      #region Methods
-
         public BaseCommissionEmployee(){
         }
-
         public override decimal GetValueToPay() {
             return Base;
         }
-
         public override string ToString() {
             return $"{base.ToString()}" +
                 $"Salario Base: {Base:C2}\n\t";
